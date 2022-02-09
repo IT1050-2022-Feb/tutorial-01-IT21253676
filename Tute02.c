@@ -27,12 +27,12 @@ int main() {
   if(dvan <= 30)
   {
     Amount = dvan * 50 ;
-    printf("Amount = %.2f",Amount);
+    printf("Amount = %d",Amount);
   }
   else
   {
     Amount = dvan * 50 + (dvan - 30) * 40 ;
-    printf("Amount = %.2f",Amount);
+    printf("Amount = %d",Amount);
   }
   
   return 0;
