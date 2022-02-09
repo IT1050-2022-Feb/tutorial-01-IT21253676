@@ -5,7 +5,8 @@
 #include <stdio.h>
 
 int main() {
-int m1, m2, avg;
+int m1, m2;
+float avg;
    
    printf("Enter mark 1 :  ");
    scanf("%d",&m1);
@@ -14,7 +15,7 @@ int m1, m2, avg;
    
    avg = (m1 + m2) / 2;
    
-   printf("Average marks : %d",avg);
+   printf("Average marks : %.1f",avg);
    
   return 0;
 }
